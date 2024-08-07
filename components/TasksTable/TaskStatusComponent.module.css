@@ -1,0 +1,21 @@
+.StatusChip {
+    display: inline-block;
+    padding: 0 0.75rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.75rem;
+}
+
+.StatusChip.completed {
+    background-color: #f2fff3;
+    color: #245E06;
+}
+.StatusChip.in-progress {
+    background-color: #F0FCFF;
+    color: #2D849D;
+}
+.StatusChip.not-started {
+    background-color: #fffbf4;
+    color: #ffb22e;
+}
