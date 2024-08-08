@@ -30,10 +30,10 @@ export const initialTasks: Task[] = [
 ]
 
 export const initialUsers: User[] = [
-    { id: 1, username: "joseperez", task_ids: [5] },
-    { id: 2, username: "mariagarcia", task_ids: [2, 6] },
-    { id: 3, username: "davidrodriguez", task_ids: [3, 9] },
-    { id: 4, username: "lauramartinez", task_ids: [10, 8] },
-    { id: 5, username: "carloslopez", task_ids: [1, 7] },
-    { id: 6, username: "anaperez", task_ids: [4] }
+    { id: 1, username: "Jon Nieve", task_ids: [5] },
+    { id: 2, username: "Eddard Stark", task_ids: [2, 6] },
+    { id: 3, username: "Tyrion Lannister", task_ids: [3, 9] },
+    { id: 4, username: "Daenerys Targaryen", task_ids: [10, 8] },
+    { id: 5, username: "Margaery Tyrell", task_ids: [1, 7] },
+    { id: 6, username: "Robert Baratheon", task_ids: [4] }
 ]
